@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">MemeMaker</string>
+    <string name="meme_text">Meme Text</string>
+    <string name="gif">Gif</string>
+    <string name="photo">Photo</string>
+    <string name="color">Color</string>
+    <string name="select_filter">Select filter</string>
+    <string name="size">Size</string>
+    <string name="create">Create</string>
+    <string name="image">Image</string>
+    <string name="create_new_cat">Create New Cat</string>
+    <string name="select_color">Select color</string>
+
+    <string-array name="colors">
+        <item>None</item>
+        <item>White</item>
+        <item>Yellow</item>
+        <item>Fuchsia</item>
+        <item>Red</item>
+        <item>Silver</item>
+        <item>Gray</item>
+        <item>Olive</item>
+        <item>Purple</item>
+        <item>Maroon</item>
+        <item>Aqua</item>
+        <item>Lime</item>
+        <item>Teal</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Navy</item>
+        <item>Black</item>
+    </string-array>
+
+    <string-array name="filter_types">
+        <item>None</item>
+        <item>Blur</item>
+        <item>Mono</item>
+        <item>Sepia</item>
+        <item>Negative</item>
+        <item>Paint</item>
+        <item>Pixel</item>
+    </string-array>
+</resources>

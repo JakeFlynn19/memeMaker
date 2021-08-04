@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/catMakerFragment">
+
+    <fragment
+        android:id="@+id/catMakerFragment"
+        android:name="com.example.mememaker.ui.view.CatMakerFragment"
+        android:label="cat_maker_fragment"
+        tools:layout="@layout/cat_maker_fragment">
+        <action
+            android:id="@+id/action_catMakerFragment_to_catViewFragment"
+            app:destination="@id/catViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/catViewFragment"
+        android:name="com.example.mememaker.ui.view.CatViewFragment"
+        android:label="cat_view_fragment"
+        tools:layout="@layout/cat_view_fragment">
+        <action
+            android:id="@+id/action_catViewFragment_to_catMakerFragment"
+            app:destination="@id/catMakerFragment" />
+    </fragment>
+</navigation>
